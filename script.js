@@ -3,6 +3,7 @@
 	.then((json) => console.log(json));*/
 
 import axios from 'axios';
+import Quote from 'inspirational-quotes';
 
 // Make a request for a user with a given ID
 axios
@@ -30,3 +31,5 @@ axios
 
 // npx parcel index.html
 // Starts a development server using Parcel to bundle and serve index.html with automatic live reloading.
+
+console.log(Quote.getQuote());
